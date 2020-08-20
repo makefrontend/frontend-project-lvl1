@@ -23,9 +23,9 @@ const calculateGame = () => {
   const operator = operators[Math.floor((Math.random() * operators.length))];
   const calculateValue = calculate(firstValue, secondValue, operator);
   const question = `${firstValue} ${operator} ${secondValue}`;
-  const getAnswer = calculateValue.toString();
+  const answer = calculateValue.toString();
 
-  return [question, getAnswer];
+  return [question, answer];
 };
 
 export default () => playGame(calculateGame, descriptionGame);
