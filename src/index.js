@@ -15,14 +15,14 @@ const playGame = (getGameData, getDescriptionGame) => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (answer === userAnswer) {
-      console.log('Correct!');
-      count += 1;
-    } else {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}".`);
       console.log(`Let's try again ${userName}!`);
       break;
     }
+    console.log('Correct!');
+    count += 1;
   }
+  console.log(`Congratulations, ${userName}`);
 };
 
 export default playGame;
