@@ -1,7 +1,6 @@
 import readlineSync from 'readline-sync';
+import { isEven, getRandomValue } from '../src/utils.js';
 
-const isEven = (value) => (value % 2 === 0 ? 'yes' : 'no');
-const getRandomValue = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 let step = 1;
 const count = 3;
 
