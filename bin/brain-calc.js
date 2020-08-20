@@ -28,4 +28,4 @@ const calculateGame = () => {
   return [question, answer];
 };
 
-export default () => playGame(calculateGame, descriptionGame);
+playGame(calculateGame, descriptionGame);
