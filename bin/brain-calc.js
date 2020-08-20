@@ -20,7 +20,7 @@ const calculate = (firstValue, secondValue, operator) => {
 const calculateGame = () => {
   const firstValue = getRandomValue(1, 200);
   const secondValue = getRandomValue(1, 200);
-  const operator = operators[Math.floor((Math.random()*operators.length))];
+  const operator = operators[Math.floor((Math.random() * operators.length))];
   const calculateValue = calculate(firstValue, secondValue, operator);
   const question = `${firstValue} ${operator} ${secondValue}`;
   const getAnswer = calculateValue.toString();
