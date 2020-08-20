@@ -11,6 +11,7 @@ const playGame = (getGameData, getDescriptionGame) => {
   const [question, answer] = getGameData();
   let count = STEP_GAME;
   while (count <= COUNT_GAME) {
+    console.log(getGameData, getDescriptionGame);
     console.log(`${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 

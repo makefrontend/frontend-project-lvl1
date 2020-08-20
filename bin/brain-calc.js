@@ -24,7 +24,7 @@ const calculateGame = () => {
   const calculateValue = calculate(firstValue, secondValue, operator);
   const question = `${firstValue} ${operator} ${secondValue}`;
   const answer = calculateValue.toString();
-
+  console.log(question, answer);
   return [question, answer];
 };
 
