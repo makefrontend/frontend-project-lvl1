@@ -1,4 +1,4 @@
-const STEP_GAME = 0;
+const STEP_GAME = 1;
 const COUNT_GAME = 3;
 
 export {
