@@ -1,31 +1,4 @@
-import { getRandomValue } from '../src/utils.js';
-import playGame from '../src/index.js';
+#!/usr/bin/env node
+import startCalculateGame from '../src/games/calc.js';
 
-const descriptionGame = 'What is the result of the expression?';
-const operators = ['-', '+', '*'];
-
-const calculate = (firstValue, secondValue, operator) => {
-  switch (operator) {
-    case '-':
-      return firstValue - secondValue;
-    case '+':
-      return firstValue + secondValue;
-    case '*':
-      return firstValue * secondValue;
-    default:
-      return null;
-  }
-};
-
-const calculateGame = () => {
-  const firstValue = getRandomValue(1, 200);
-  const secondValue = getRandomValue(1, 200);
-  const operator = operators[Math.floor((Math.random() * operators.length))];
-  const calculateValue = calculate(firstValue, secondValue, operator);
-  const question = `${firstValue} ${operator} ${secondValue}`;
-  const answer = calculateValue.toString();
-  console.log(question, answer);
-  return [question, answer];
-};
-
-playGame(calculateGame, descriptionGame);
+startCalculateGame();
