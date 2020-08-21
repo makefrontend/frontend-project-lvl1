@@ -18,6 +18,6 @@ const gameData = () => {
   return [question, answer];
 };
 
-const startCalculateGame = () => playGame(gameData, descriptionGame);
+const startGame = () => playGame(gameData, descriptionGame);
 
-export default startCalculateGame;
+export default startGame;
