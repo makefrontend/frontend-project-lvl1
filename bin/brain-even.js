@@ -9,15 +9,14 @@ const playGame = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (step <= count) {
-    const randomValue = getRandomValue(0, 100);
-    console.log(randomValue);
+    const randomValue = getRandomValue(0, 50);
     const getAnswerQuestion = readlineSync.question('Your answer: ');
     if (getAnswerQuestion === isEven(randomValue)) {
       console.log('Correct!');
       step += 1;
     } else {
       console.log('"yes" is wrong answer ;(. Correct answer was "no"');
-      break;
+      return;
     }
   }
   console.log(`Congratulations, ${userName}`);
