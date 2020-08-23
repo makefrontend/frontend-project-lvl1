@@ -1,16 +1,15 @@
 import readlineSync from 'readline-sync';
+import COUNT_GAME from './arguments.js';
 // import { isEven, getRandomValue } from '../src/utils.js';
-import { STEP_GAME, COUNT_GAME } from './arguments.js';
 
-const playGame = (getGameData, getDescriptionGame) => {
+const playGame = (rounds, getDescriptionGame) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hi, ${userName}!`);
   console.log(getDescriptionGame);
-  const [question, answer] = getGameData();
-  let count = STEP_GAME;
-  while (count <= COUNT_GAME) {
-    console.log(`${question}`);
+  for (let i = 0; i < COUNT_GAME; i += 1) {
+    const { question, answer } = rounds[i];
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (answer !== userAnswer) {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}".`);
@@ -18,9 +17,8 @@ const playGame = (getGameData, getDescriptionGame) => {
       return;
     }
     console.log('Correct!');
-    count += 1;
   }
   console.log(`Congratulations, ${userName}`);
 };
 
-export default playGame;
+export { COUNT_GAME, playGame };
