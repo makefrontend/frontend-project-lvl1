@@ -20,10 +20,9 @@ const calculate = (firstValue, secondValue, operator) => {
 const calculateGame = () => {
   const firstValue = getRandomValue(0, 50);
   const secondValue = getRandomValue(0, 50);
-  const operator = operators[Math.floor((Math.random() * operators.length))];
-  const calculateValue = calculate(firstValue, secondValue, operator);
+  const operator = operators[getRandomValue(0, 2)];
   const question = `${firstValue} ${operator} ${secondValue}`;
-  const answer = calculateValue.toString();
+  const answer = calculate(firstValue, secondValue, operator).toString();
   return [question, answer];
 };
 
