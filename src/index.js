@@ -3,6 +3,7 @@ import COUNT_GAME from './arguments.js';
 // import { isEven, getRandomValue } from '../src/utils.js';
 
 const playGame = (rounds, getDescriptionGame) => {
+  console.log(rounds);
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hi, ${userName}!`);
