@@ -13,14 +13,14 @@ const playGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (step <= COUNT_GAME) {
     const randomValue = getRandomValue(minValue, maxValue);
+    console.log(`Question: ${randomValue}`);
     const getAnswerQuestion = readlineSync.question('Your answer: ');
     if (getAnswerQuestion === isEven(randomValue)) {
-      console.log('Correct!');
-      step += 1;
-    } else {
       console.log('"yes" is wrong answer ;(. Correct answer was "no"');
       return;
     }
+    console.log('Correct!');
+    step += 1;
   }
   console.log(`Congratulations, ${userName}`);
 };
