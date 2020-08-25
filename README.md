@@ -11,3 +11,5 @@ $ make install
 ```sh
 $ brain-calc
 ```
+### Интерфейс игры
+[![asciicast](https://asciinema.org/a/355421.svg)](https://asciinema.org/a/355421)
