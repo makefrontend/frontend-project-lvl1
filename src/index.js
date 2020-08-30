@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
-import COUNT_GAME from './arguments.js';
-// import { isEven, getRandomValue } from '../src/utils.js';
+
+const countGame = 3;
 
 const playGame = (getGameData, getDescriptionGame) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hi, ${userName}!`);
   console.log(getDescriptionGame);
-  for (let i = 0; i < COUNT_GAME; i += 1) {
+  for (let i = 0; i < countGame; i += 1) {
     const { question, answer } = getGameData();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');

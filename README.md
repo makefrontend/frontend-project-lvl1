@@ -12,32 +12,32 @@ $ make install
 $ brain-calc
 ```
 ## Интерфейс игры
-[![asciicast](https://asciinema.org/a/V6NoX49ljhWuppgBmba2UHGPw.svg)](https://asciinema.org/a/V6NoX49ljhWuppgBmba2UHGPw)
+[![asciicast](https://asciinema.org/a/NPpFz2p8JtM4xao8KEoS27Pf2.svg)](https://asciinema.org/a/NPpFz2p8JtM4xao8KEoS27Pf2)
 
 # Игра Brain Prime
 ```sh
 $ brain-prime
 ```
 ## Интерфейс игры 
-[![asciicast](https://asciinema.org/a/4y2kipr4qWTDOBMIOS2RvM145.svg)](https://asciinema.org/a/4y2kipr4qWTDOBMIOS2RvM145)
+[![asciicast](https://asciinema.org/a/hNEEhKRnUVWI1WiKfQ9VKr344.svg)](https://asciinema.org/a/hNEEhKRnUVWI1WiKfQ9VKr344)
 
 # Игра Brain Progression
 ```sh
 $ brain-progression
 ```
 ## Интерфейс игры 
-[![asciicast](https://asciinema.org/a/ZHdUnBWaW8ljKjvBv1zZ3Oy3x.svg)](https://asciinema.org/a/ZHdUnBWaW8ljKjvBv1zZ3Oy3x)
+[![asciicast](https://asciinema.org/a/vbWcFjhf7J79M4cZkjcgrzILd.svg)](https://asciinema.org/a/vbWcFjhf7J79M4cZkjcgrzILd)
 
 # Игра Brain GCD
 ```sh
 $ brain-gcd
 ```
 ## Интерфейс игры 
-[![asciicast](https://asciinema.org/a/PL0VTvDOr9mckESbNLgzfuRfB.svg)](https://asciinema.org/a/PL0VTvDOr9mckESbNLgzfuRfB)
+[![asciicast](https://asciinema.org/a/vYSHeCymlIdEQLkOitdQMi5Tt.svg)](https://asciinema.org/a/vYSHeCymlIdEQLkOitdQMi5Tt)
 
 # Игра Brain Even
 ```sh
 $ brain-even
 ```
 ## Интерфейс игры 
-[![asciicast](https://asciinema.org/a/DOwnh2cAUON2kkwdno2GUqUKp.svg)](https://asciinema.org/a/DOwnh2cAUON2kkwdno2GUqUKp)
+[![asciicast](https://asciinema.org/a/RRnjWq3cYDF98kGbBjeWlRQOs.svg)](https://asciinema.org/a/RRnjWq3cYDF98kGbBjeWlRQOs)
