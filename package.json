@@ -1,7 +1,7 @@
 {
   "name": "frontend-project-lvl1-makefrontend",
   "version": "1.1.1",
-  "description": "",
+  "description": "Набор консольных интерактивных игр в рамках проекта Игры разума",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -11,14 +11,14 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/makefrontend/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": {
+    "name": "MakeFrontend",
+    "url": "https://github.com/makefrontend"
+  }
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/makefrontend/frontend-project-lvl1/issues"
