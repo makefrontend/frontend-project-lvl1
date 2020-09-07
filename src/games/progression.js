@@ -7,17 +7,17 @@ const minValue = 0;
 const maxValue = 50;
 
 const getGameData = () => {
-  const progressionList = [];
+  const progression = [];
   const firstValue = getRandomValue(minValue, maxValue);
   const secondValue = getRandomValue(minValue, maxValue);
   for (let k = 0; k < progressionLength; k += 1) {
     const number = firstValue + secondValue * k;
-    progressionList.push(number);
+    progression.push(number);
   }
-  const replaceProgression = getRandomValue(0, progressionList.length - 1);
-  const answer = progressionList[replaceProgression].toString();
-  progressionList[replaceProgression] = '..';
-  const question = progressionList.join(' ');
+  const replaceProgression = getRandomValue(0, progression.length - 1);
+  const answer = progression[replaceProgression].toString();
+  progression[replaceProgression] = '..';
+  const question = progression.join(' ');
   return { question, answer };
 };
 

@@ -1,4 +1,4 @@
-import { getRandomValue } from '../utils.js';
+import getRandomValue from '../utils.js';
 import playGame from '../index.js';
 
 const descriptionGame = 'What is the result of the expression?';
@@ -6,7 +6,7 @@ const operators = ['-', '+', '*'];
 const minValue = 0;
 const maxValue = 50;
 const startOretators = 0;
-const endOperators = 2;
+const endOperators = operators.length - 1;
 
 const calculate = (firstValue, secondValue, operator) => {
   switch (operator) {
