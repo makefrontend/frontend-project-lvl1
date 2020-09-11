@@ -1,10 +1,12 @@
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage) [![WF](https://github.com/makefrontend/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/makefrontend/frontend-project-lvl1/actions)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/makefrontend/frontend-project-lvl1) [![WF](https://github.com/makefrontend/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/makefrontend/frontend-project-lvl1/actions)
 
 # Проект Brain Games
 В рамках проекта реализован набор игр с консольным интерфейсом
 # Installation
 ```sh
 $ make install
+$ make publish
+$ npm link
 ```
 
 # Игра Brain Calc
